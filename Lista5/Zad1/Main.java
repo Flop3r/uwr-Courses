@@ -1,9 +1,9 @@
-// Franciszek Przeliorz          //
-// Uniwerystet Wrocławski        //
-// Kurs: Programowanie Obiektowe //
-// Lista 5                       //
-//                               //
-// javac Main.java               //
+/* Franciszek Przeliorz          */
+/* Uniwerystet Wrocławski        */
+/* Kurs: Programowanie Obiektowe */
+/* Lista 5 : Zadanie 1           */
+/*                               */
+/* Kompilacja: javac Main.java   */
 
 import ComparableClasses.*;
 import java.util.*;

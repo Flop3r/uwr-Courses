@@ -1,9 +1,11 @@
-package ComparableClasses;
+/* Franciszek Przeliorz          */
+/* Uniwerystet Wrocławski        */
+/* Kurs: Programowanie Obiektowe */
+/* Lista 5 : Zadanie 1           */
+/*                               */
+/* Kompilacja: javac Main.java   */
 
-// Franciszek Przeliorz          //
-// Uniwerystet Wrocławski        //
-// Kurs: Programowanie Obiektowe //
-// Lista 5                       //
+package ComparableClasses;
 
 
 //* Klasa bazowa reprezentującą kartę.
