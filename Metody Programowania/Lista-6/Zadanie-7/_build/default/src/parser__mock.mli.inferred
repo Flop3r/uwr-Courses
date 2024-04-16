@@ -1,0 +1,24 @@
+type token =
+    TRUE
+  | TIMES
+  | THEN
+  | SMALLER
+  | SMALLEQ
+  | RPAREN
+  | PLUS
+  | NOTEQ
+  | MINUS
+  | LPAREN
+  | INT of int
+  | IF
+  | GREATER
+  | GREATEQ
+  | FALSE
+  | EQ
+  | EOF
+  | ELSE
+  | DIV
+val menhir_begin_marker : int
+val xv_prog : Ast.expr
+val xv_expr : Ast.expr
+val menhir_end_marker : int
