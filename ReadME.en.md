@@ -1,5 +1,5 @@
 # Uwr
-### [PL](https://)
+### [[PL]](https://github.com/Flop3r/Kursy-UWr/blob/a3c785d0f0b1df93d44ffd4a36c292f9e64f5b10/README.md)
 ### My courses:
 
 | Subject                      | Status         | Description                                                    | Skills Acquired                                        |
