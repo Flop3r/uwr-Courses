@@ -6,7 +6,7 @@
 |------------------------------|----------------|----------------------------------------------------------------|--------------------------------------------------------|
 | Logic for Computer Scientists| Completed      | Introduction to the world of mathematical logic.               | Mathematical logic, propositional calculus, set theory |
 | Mathematical Analysis        | Completed      | Advanced mathematical course.                                  | Mathematical analysis, sequences, series, differential and integral calculus |
-| Basic Computer Workshop      | Completed      | Practical course on Unix/Linux, LaTEX, Git.                    | Unix/Linux, LaTEX, Git                                |
+| IT Workshop  | Completed      | Practical course on Unix/Linux, LaTEX, Git.                    | Unix/Linux, LaTEX, Git                                |
 | Introduction to Computer Science | Completed   | Introduction to computer structure and operation, and development of skills in algorithm construction and analysis. | Computer structures, algorithms                    |
 | Algebra                      | Current        | The course covers algebra topics.                              | Linear equations, matrices, linear spaces, basic group theory, modular arithmetic |
 | [Programming Methods](https://github.com/Flop3r/Kursy-UWr/tree/ce44b3ca7078bfce8e9573523cca69a26e92679e/Metody%20Programowania) | Current | Course on advanced programming methods.                        | Advanced programming methods                         |
