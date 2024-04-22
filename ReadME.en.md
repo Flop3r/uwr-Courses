@@ -10,7 +10,6 @@
 | Introduction to Computer Science | Completed   | Introduction to computer structure and operation, and development of skills in algorithm construction and analysis. | Computer structures, algorithms                    |
 | Algebra                      | Current        | The course covers algebra topics.                              | Linear equations, matrices, linear spaces, basic group theory, modular arithmetic |
 | [Programming Methods](https://github.com/Flop3r/Kursy-UWr/tree/ce44b3ca7078bfce8e9573523cca69a26e92679e/Metody%20Programowania) | Current | Course on advanced programming methods.                        | Advanced programming methods                         |
-| Artificial Intelligence      | Current        | Exploring various approaches to artificial intelligence.        | AI modeling, machine learning (ML)                    |
 | Computer Systems             | Current        | Analysis of computer systems and architecture.                 | Computer architecture, computer systems              |
 | Software Engineering         | Completed      | Introduction to the world of software engineering and practical preparation for work in this position. | Scrum, Jira, Software engineering                    |
 | [Object-Oriented Programming](https://github.com/Flop3r/Kursy-UWr/tree/ce44b3ca7078bfce8e9573523cca69a26e92679e/Programowanie%20Obiektowe) | Completed | Course focusing on object-oriented programming.              | Understanding OOP. Languages: C++, C#, Java, Ruby   |
