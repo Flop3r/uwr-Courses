@@ -3,7 +3,7 @@
 Repozytorium zawiera spis kursów i przedmiotów, które ukończyłem lub realizuję na Uniwersytecie Wrocławskim. Znajdują się tu również rozwiązania zadań oraz projekty realizowane w ramach ich zaliczenia. Dodatkowo repozytorium zawiera spis projektów zaliczeniowych zrealizowanych w ramach poszczególnych przedmiotów.
 
 --- 
-## 🗂️ **Legenda Tagów**
+## #️⃣ **Legenda Tagów**
 
 - **O**: Obowiązkowy przedmiot
 - **I**: Przedmiot informatyczny
@@ -17,7 +17,7 @@ Repozytorium zawiera spis kursów i przedmiotów, które ukończyłem lub realiz
 ## 🗂️ **Lista Przedmiotów:**
 
 
-### **Aktualne 🟢**
+### **🟢 Aktualne**
 
 | **Przedmiot**                   | **Opis**                                                     | **Zdobyte Umiejętności**                                      | **Tag**   |
 |----------------------------------|--------------------------------------------------------------|---------------------------------------------------------------|-----------|
@@ -27,7 +27,7 @@ Repozytorium zawiera spis kursów i przedmiotów, które ukończyłem lub realiz
 | Machine Learning                | Uczenie maszynowe, algorytmy klasyfikacji, sieci neuronowe.   | Regresja, klasyfikacja, sieci neuronowe                        | I2.Z      |
 
  
-### **Zakończone ✅**
+### **✅ Zakończone**
 
 | **Przedmiot**                   | **Opis**                                                     | **Zdobyte Umiejętności**                                      | **Tag**   |
 |----------------------------------|--------------------------------------------------------------|---------------------------------------------------------------|-----------|
@@ -36,10 +36,10 @@ Repozytorium zawiera spis kursów i przedmiotów, które ukończyłem lub realiz
 | Algebra                          | Algebra liniowa oraz algebra abstrakcyjna          | Równania liniowe, macierze, przestrzenie liniowe, grupy, pierścienie       | O         |
 | [Metody Programowania](https://github.com/Flop3r/Kursy-UWr/tree/ce44b3ca7078bfce8e9573523cca69a26e92679e/Metody%20Programowania) | Zasady działania języków programowania i ich implementacji (interpretery, kompilatory). Skupia się na praktycznym zastosowaniu funkcyjnych języków programowania.             | Techniki programowania, analiza algorytmów, praca z językami funkcyjnymi.                             | O       |
 | [Programowanie Obiektowe](https://github.com/Flop3r/Kursy-UWr/tree/ce44b3ca7078bfce8e9573523cca69a26e92679e/Programowanie%20Obiektowe) | Paradygmat programowania obiektowego.                         | C#, Java, Ruby, OOP                                            | I        |
-| Podstawowy warsztat informatyka  | Obsługa systemów Unix/Linux, LaTeX, Git.                      | Unix/Linux, LaTeX, Git                                         | Kur        |
 | Inżynieria Oprogramowania        | Kurs z metod inżynierii oprogramowania i praktyk Scrum/Jira.  | Scrum, Jira, Software Engineering                              | I        |
 | Systemy Komputerowe              | Architektura systemów komputerowych i operacyjnych.           | Architektura komputerów, systemy operacyjne                    | I       |
 | [Silnik Unity](https://github.com/Flop3r/Kursy-UWr/tree/6937aa259fe50204e32383c34fbcea0247137f80/Unity) | Tworzenie gier z użyciem Unity.                               | Unity Engine, projektowanie gier                               | K2       |
+| Podstawowy warsztat informatyka  | Obsługa systemów Unix/Linux, LaTeX, Git.                      | Unix/Linux, LaTeX, Git                                         | Kur        |
 
 ---
 
