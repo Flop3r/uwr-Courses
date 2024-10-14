@@ -22,7 +22,7 @@ Repozytorium zawiera spis kursów i przedmiotów, które ukończyłem lub realiz
 | **Przedmiot**                   | **Opis**                                                     | **Zdobyte Umiejętności**                                      | **Tag**   |
 |----------------------------------|--------------------------------------------------------------|---------------------------------------------------------------|-----------|
 | Matematyka Dyskretna             | Struktury dyskretne w matematyce, teoria grafów.              | Kombinatoryka, logika matematyczna, teoria grafów              | O         |
-| Analiza Numeryczna               | Metody i algorytmy rozwiązywania zadań obliczeniowych.        | Analiza błędów, metody iteracyjne, interpolacja, aproksymacja, kwadratury, algebra numeryczna | O         |
+| [Analiza Numeryczna](https://github.com/Flop3r/Kursy-UWr/tree/bff046c390ccf8e8b83794c81ce7b94f8acde5a8/Analiza%20Numeryczna)               | Metody i algorytmy rozwiązywania zadań obliczeniowych.        | Analiza błędów, metody iteracyjne, interpolacja, aproksymacja, kwadratury, algebra numeryczna | O         |
 | Application Design with Databases | Projektowanie aplikacji z bazami danych (SQL).                | SQL, projektowanie baz danych                                  | Kur. Inż.      |
 | Machine Learning                | Uczenie maszynowe, algorytmy klasyfikacji, sieci neuronowe.   | Regresja, klasyfikacja, sieci neuronowe                        | I2.Z      |
 
