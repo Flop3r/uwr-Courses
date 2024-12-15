@@ -9,6 +9,6 @@ my_log2(x):
 
     while(x > 2):
         x/=2;
-        n++;
+        n--;
     
     return n + LOG2(x);
