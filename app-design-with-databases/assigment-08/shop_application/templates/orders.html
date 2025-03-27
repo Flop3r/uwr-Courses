@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    {% include "navbar.html" %}
+    <h1>Orders</h1>
+    <ul>
+        {% for order in orders %}
+        <li>
+            <b>Order ID:</b> {{ order.id }} - <b>Status:</b> {{ order.status }} - <b>Total Price:</b> ${{ order.total_price }}
+            <form action="/update_order_status/{{ order.id }}" method="post">
+                <select name="status">
+                    <option value="Pending" {% if order.status == "Pending" %}selected{% endif %}>Pending</option>
+                    <option value="Shipped" {% if order.status == "Shipped" %}selected{% endif %}>Shipped</option>
+                    <option value="Delivered" {% if order.status == "Delivered" %}selected{% endif %}>Delivered</option>
+                    <option value="Cancelled" {% if order.status == "Cancelled" %}selected{% endif %}>Cancelled</option>
+                </select>
+                <button type="submit">Update Status</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

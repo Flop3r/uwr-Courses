@@ -1,0 +1,32 @@
+### Get all products
+GET http://127.0.0.1:5000/products
+
+### Get product by id ("Distressed Long Sleeve")
+GET http://127.0.0.1:5000/products/679a318375e7db333b2866df
+
+### Get product by id (not existing)
+GET http://127.0.0.1:5000/products/000000000000000000000000
+
+### Product creation
+POST http://127.0.0.1:5000/products
+Content-Type: application/json
+
+{
+    "name": "Black Hoodie",
+    "description": "Black Hoodie.",
+    "price": 20000
+}
+
+### Product update ("Boxy Black Hoodie")
+PUT http://127.0.0.1:5000/products/679a5fb175e7db333b2866e0
+Content-Type: application/json
+
+{
+    "name": "Boxy Black Hoodie",
+    "description": "Boxy Black Hoodie made by Polish brand.",
+    "price": 60000
+}
+
+
+### Product deletion ("Distressed Long Sleeve") 
+DELETE http://127.0.0.1:5000/products/679a318375e7db333b2866df

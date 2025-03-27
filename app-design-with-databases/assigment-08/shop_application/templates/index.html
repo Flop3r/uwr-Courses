@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    {% include "navbar.html" %}
+    <h1>Products</h1>
+    <ul>
+        {% for product in products %}
+        <li>
+            <b>{{ product.name }}</b> - ${{ product.price }} (Stock: {{ product.stock }})
+            <p>{{ product.description }}</p>
+            <a href="/add_to_cart/{{ product.id }}">Add to Cart</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

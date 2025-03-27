@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz kontaktowy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <form class="contact-form" id="contactForm">
+            <h1 class="contact-form__title">Skontaktuj się z nami</h1>
+            
+            <div class="contact-form__row">
+                <div class="contact-form__group">
+                    <label for="firstName" class="contact-form__label">Imię*</label>
+                    <input 
+                        type="text" 
+                        pattern="^[\p{L}\p{M}]+( [\p{L}\p{M}]+)*$"
+                        id="firstName" 
+                        name="firstName"
+                        placeholder="Imię" 
+                        class="contact-form__input" 
+                        required>
+                </div>
+                
+                <div class="contact-form__group">
+                    <label for="lastName" class="contact-form__label">Nazwisko</label>
+                    <input 
+                        type="text"
+                        pattern="^[\p{L}\p{M}]+( [\p{L}\p{M}]+)*$"
+                        id="lastName" 
+                        name="lastName" 
+                        placeholder="Nazwisko"  
+                        class="contact-form__input">
+                </div>
+            </div>
+            
+            <div class="contact-form__row">
+                <div class="contact-form__group">
+                    <label for="email" class="contact-form__label">E-mail*</label>
+                    <input 
+                        type="text"
+                        pattern="[^@\s]+@[^@\s]+\.[^@\s]{2,3}" 
+                        id="email" 
+                        name="email" 
+                        placeholder="E-mail"  
+                        class="contact-form__input" 
+                        required>
+                </div>
+                
+                <div class="contact-form__group">
+                    <label for="phone" class="contact-form__label">Telefon</label>
+                    <input 
+                        type="tel" 
+                        pattern="^[0-9\-\+]{9,15}$"
+                        id="phone" 
+                        name="phone" 
+                        placeholder="Telefon" 
+                        class="contact-form__input">
+                </div>
+            </div>
+            
+            <div class="contact-form__group">
+                <label for="contactReason" class="contact-form__label">Powód kontaktu*</label>
+                <select id="contactReason" 
+                    name="contactReason" 
+                    class="contact-form__select" 
+                    required>
+                    <option value="" disabled selected>Wybierz powód...</option>
+                    <option value="question">Pytanie</option>
+                    <option value="complaint">Reklamacja</option>
+                    <option value="order">Zamówienie</option>
+                    <option value="other">Inny</option>
+                </select>
+            </div>
+            
+            <div class="contact-form__group">
+                <label for="message" class="contact-form__label">Wiadomość*</label>
+                <textarea id="message" 
+                        name="message" 
+                        placeholder="Przykładowa wiadomość" 
+                        class="contact-form__textarea" 
+                        data-auto-resize
+                        required></textarea>
+            </div>
+            
+            <div class="contact-form__checkbox-group">
+                <input 
+                    type="checkbox" 
+                    id="newsletter" 
+                    name="newsletter" 
+                    class="contact-form__checkbox">
+                    
+                <label for="newsletter" class="contact-form__label contact-form__label--checkbox">
+                    Zapis do newslettera
+                </label>
+            </div>
+            
+            <button type="submit" class="contact-form__submit">Wyślij</button>
+        </form>
+    </div>
+</body>
+</html>

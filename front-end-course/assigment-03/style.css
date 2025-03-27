@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.blog_header {
+    margin: 0;
+}
+
+.content__main {
+    background-color: #ececf7;
+    padding: 1rem 2rem;
+}
+
+/* Header */
+header {
+    background-color: white;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000; /* zeby miec pewnosc ze jest na samej gorze */
+}
+
+header nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 100%
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header nav a:hover {
+    background-color: #f1f1f1;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100%; 
+}
+
+header nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+/* Sekcja blog */
+.blog .article:nth-of-type(2n+1) figure{
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.blog .article:nth-of-type(2n) figure {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/* Zapobieganie nakładaniu się artykułów */
+.blog .article {
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.blog .article figcaption {
+  font-size: 0.8em;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+}
+
+.blog .warning {
+  background-color: #f4c5b7;
+  border: 3px solid #faf9f8;
+  border-radius: 20px;
+  padding: 15px;
+  overflow: hidden; 
+  margin-top: 20px;
+}
+
+.blog .warning figure {
+  float: left;
+  margin-right: 15px;
+}
+
+.blog .warning :first-child{ /* za pomoca first-child ustawiam to dla "Warning! */
+  text-align: center;
+  margin: 0;
+}
+
+/* Sekcja Gallery */
+
+.gallery__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
+    grid-template-rows: repeat(2, 1fr); /* 2 wiersze */
+    gap: 1rem; 
+    height: 100vh; 
+    width: 100%;
+}
+
+.gallery__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__image:nth-child(1) {
+    grid-column: 1 / 2; 
+    grid-row: 1 / 3; 
+}
+
+.gallery__image:nth-child(2) {
+    grid-column: 3 / 4; 
+    grid-row: 1 / 2; 
+}
+
+.gallery__image:nth-child(3) {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3; 
+}
+
+
+/* Sekcja posts */
+.posts {
+    padding: 20px;
+  }
+  
+  .posts__wrapper {
+    position: relative;
+    height: 300px; 
+  }
+  
+  .post__container {
+    position: absolute;
+    width: 300px; 
+    height: 200px; 
+  }
+  
+  .post__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  } 
+  
+  .post__subtitle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    margin: 0;
+
+  }
+  
+  /* Element "i" */
+  .post__info {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: salmon;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    z-index: 1;
+  }
+  
+  .post__container:first-child {
+    left: 0;
+    top: 0;
+    z-index: 1; /* pierwszy post na wierzchu */
+  }
+  
+  .post__container:nth-child(2) {
+    left: 250px; 
+    top: 100px;
+    z-index: 0; /* drygi post pod spodem */
+  }
+  
+  .post__container:nth-child(2):hover {
+    z-index: 1; /* drugi post na wierzchu po najechaniu */
+  }

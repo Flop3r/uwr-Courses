@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    {% include "navbar.html" %}
+    <h1>Your Cart</h1>
+    <ul>
+        {% for item in cart.items %}
+        <li>
+            <b>{{ item.product.name }}</b> - Quantity: {{ item.quantity }} - Total: ${{ item.product.price * item.quantity }}
+            <a href="/remove_from_cart/{{ item.product.id }}">Remove</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <p>Total: ${{ cart.get_total() }}</p>
+    <form action="/checkout" method="post">
+        <button type="submit">Checkout</button>
+    </form>
+</body>
+</html>
